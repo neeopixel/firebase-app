@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/firebase-app/static/css/main.d2ab92ee.css",
-    "main.js": "/firebase-app/static/js/main.04dbdbbe.js",
+    "main.css": "/firebase-app/static/css/main.674afb65.css",
+    "main.js": "/firebase-app/static/js/main.6a623c8b.js",
     "static/media/logo.svg": "/firebase-app/static/media/logo.bfd2489966364589e7231157a5ae5102.svg",
-    "index.html": "/firebase-app/index.html"
+    "index.html": "/firebase-app/index.html",
+    "main.674afb65.css.map": "/firebase-app/static/css/main.674afb65.css.map",
+    "main.6a623c8b.js.map": "/firebase-app/static/js/main.6a623c8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2ab92ee.css",
-    "static/js/main.04dbdbbe.js"
+    "static/css/main.674afb65.css",
+    "static/js/main.6a623c8b.js"
   ]
 }
