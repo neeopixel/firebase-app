@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/firebase-app/static/css/main.35d09608.css",
-    "main.js": "/firebase-app/static/js/main.f4d55cc8.js",
+    "main.css": "/firebase-app/static/css/main.ea370c9d.css",
+    "main.js": "/firebase-app/static/js/main.2cde8a9a.js",
     "static/media/offer-1.jpg": "/firebase-app/static/media/offer-1.1834499c3eb7d2b00f2b.jpg",
     "static/media/offer-2.jpg": "/firebase-app/static/media/offer-2.cbe6dfd75d3e42d31265.jpg",
     "static/media/logo.svg": "/firebase-app/static/media/logo.bfd2489966364589e7231157a5ae5102.svg",
     "index.html": "/firebase-app/index.html",
-    "main.35d09608.css.map": "/firebase-app/static/css/main.35d09608.css.map",
-    "main.f4d55cc8.js.map": "/firebase-app/static/js/main.f4d55cc8.js.map"
+    "main.ea370c9d.css.map": "/firebase-app/static/css/main.ea370c9d.css.map",
+    "main.2cde8a9a.js.map": "/firebase-app/static/js/main.2cde8a9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.35d09608.css",
-    "static/js/main.f4d55cc8.js"
+    "static/css/main.ea370c9d.css",
+    "static/js/main.2cde8a9a.js"
   ]
 }
