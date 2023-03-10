@@ -6,6 +6,15 @@ import Header from './Header'
 
 
 export const Dashboard = () => {
+
+
+  
+
+  // Firebase Custom Title
+  document.title = "Dashboard";
+
+
+
   return (
     <div className="App">
       <Header/>

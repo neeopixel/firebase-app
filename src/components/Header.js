@@ -14,6 +14,11 @@ export default function Header() {
 
 
 
+
+  // Firebase Custom Title
+  // document.title = "HomePage";
+
+
   return (
 
     
@@ -45,3 +50,6 @@ export default function Header() {
     </>
   );
 }
+
+
+
