@@ -1,20 +1,18 @@
 import React from "react";
 import "./landing.css";
-import Header from './Header'
+import Header from './Lib-comp/NavBar/Header';
+import Offer from "../components/Lib-comp/Offer";
+import Products from "./Lib-comp/Products";
 
 function Landing() {
-
-  
-
   // Firebase Custom Title
   document.title = "HomePage";
 
-
-  
   return (
     <div className="App-Landing">
-<Header/>
-      landing
+      <Header />
+      <Offer />
+      <Products/>
     </div>
   );
 }
