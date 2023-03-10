@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../pages/styles.css'
 import OfferImage1 from '../../images/img/offer-1.jpg';
 import OfferImage2 from '../../images/img/offer-2.jpg';
+import { Button } from "react-bootstrap";
 
 export default function Offer() {
 
@@ -24,7 +26,7 @@ export default function Offer() {
             <div className="offer-text">
               <h6 className="text-white text-uppercase">Save 20%</h6>
               <h3 className="text-white mb-3">Special Offer</h3>
-              <a href="/firebase-app/Signin" className="btn btn-primary">Sign-In Now</a>
+              <Link to="/Signin"><Button>Sign-In Now</Button></Link>
             </div>
           </div>
         </div>
@@ -34,7 +36,7 @@ export default function Offer() {
             <div className="offer-text">
               <h6 className="text-white text-uppercase">Save 20%</h6>
               <h3 className="text-white mb-3">Special Offer</h3>
-              <a href="/firebase-app/Signup" className="btn btn-primary">Register Now</a>
+              <Link to="/Signup"><Button>Register Now</Button></Link>
             </div>
           </div>
         </div>
