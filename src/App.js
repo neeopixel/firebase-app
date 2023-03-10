@@ -1,8 +1,11 @@
 import './App.css';
 import React from 'react';
-import { Route, Switch, Link } from "react-router-dom";
-import About from './About';
-import Home from './Home';
+import { Route, Routes, Link } from "react-router-dom";
+import Dashboard from './components/Dashboard/Dashboard';
+import Landing from './components/landing/landing';
+import Signin from './components/signin-signup/signin';
+import Signup from './components/signin-signup/signup';
+import Home from './Home.jsx'
 
 class App extends React.Component {
   render() {
@@ -23,17 +26,19 @@ class App extends React.Component {
               </ul>
             </nav>
           </div>
-            <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-          </Switch>
+            <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/Dashboard' element={<Dashboard/>} />
+            <Route path='/Landing' element={<Landing/>} />
+            <Route path='/Signin' element={<Signin/>} />
+            <Route path='/Signup' element={<Signup/>} />
+         </Routes>
           </div>
             );
   }
 }
 
 export default App;
+
+
+
