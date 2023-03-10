@@ -9,8 +9,6 @@ export default function Offer() {
 
 
 
-
-
   // Firebase Custom Title
   // document.title = "HomePage";
 
@@ -26,7 +24,7 @@ export default function Offer() {
             <div className="offer-text">
               <h6 className="text-white text-uppercase">Save 20%</h6>
               <h3 className="text-white mb-3">Special Offer</h3>
-              <Link to="/Signin"><Button>Sign-In Now</Button></Link>
+              <Link to="/Signup"><Button>Sign-In Now</Button></Link>
             </div>
           </div>
         </div>
