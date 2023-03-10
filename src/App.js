@@ -1,44 +1,25 @@
-import './App.css';
 import React from 'react';
-import { Route, Routes, Link } from "react-router-dom";
-import Dashboard from './components/Dashboard/Dashboard';
-import Landing from './components/landing/landing';
-import Signin from './components/signin-signup/signin';
-import Signup from './components/signin-signup/signup';
-import Home from './Home.jsx'
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from './components/landing';
+import Dashboard from './components/Dashboard.js';
+import Signin from './components/signin.js';
+import Signup from './components/signup.js';
 
-class App extends React.Component {
-  render() {
-      return (
-        <div className="App">
-          <div>
-            <nav>
-              <ul id="navigation">
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                <Link to="/about">About</Link>
-                </li>
-                <li>
-                <Link to="/contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-            <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/Dashboard' element={<Dashboard/>} />
-            <Route path='/Landing' element={<Landing/>} />
-            <Route path='/Signin' element={<Signin/>} />
-            <Route path='/Signup' element={<Signup/>} />
-         </Routes>
-          </div>
-            );
-  }
+
+function App() {
+  return (
+    <div className="container">
+      <BrowserRouter basename="/firebase-app">
+        <Routes>
+          <Route exact path="/" element={<Landing />}></Route>
+          <Route path="/Dashboard" element={<Dashboard />}></Route>
+          <Route path="/Signin" element={<Signin />}></Route>
+          <Route path="/Signup" element={<Signup />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
-
-
-
