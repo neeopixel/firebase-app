@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Lib-comp/NavBar/Header';
+import Header from '../Lib-comp/NavBar/Header';
 
 function Signup() {
 

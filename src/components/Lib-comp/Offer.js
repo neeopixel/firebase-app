@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles.css'
+import '../pages/styles.css'
 import OfferImage1 from '../../images/img/offer-1.jpg';
 import OfferImage2 from '../../images/img/offer-2.jpg';
 

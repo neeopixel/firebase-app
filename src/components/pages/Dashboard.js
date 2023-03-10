@@ -1,8 +1,8 @@
-import logo from "../images/logo.svg";
+import logo from "../../images/logo.svg";
 import "./Dashboard.css";
 import Draggable from "react-draggable";
 import React from "react";
-import Header from './Lib-comp/NavBar/Header';
+import Header from '../Lib-comp/NavBar/Header';
 
 
 export const Dashboard = () => {
