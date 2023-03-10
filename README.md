@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/neeopixel/firebase-app.git
+git push -u origin main
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
