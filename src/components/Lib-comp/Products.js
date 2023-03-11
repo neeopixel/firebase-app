@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../pages/styles.css";
 
 export default function Products() {
   // Firebase Custom Title
   // document.title = "HomePage";
-
 
   return (
     <>
@@ -33,9 +33,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+                <Link class="h6 text-decoration-none text-truncate" to="/Product1">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -73,9 +73,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product2">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -113,9 +113,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product3">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -153,9 +153,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product4">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -193,9 +193,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product5">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -233,9 +233,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product6">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -273,9 +273,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product7">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">
@@ -313,9 +313,9 @@ export default function Products() {
                 </div>
               </div>
               <div class="text-center py-4">
-                <a class="h6 text-decoration-none text-truncate" href="/">
+              <Link class="h6 text-decoration-none text-truncate" to="/Product8">
                   Product Name Goes Here
-                </a>
+                </Link>
                 <div class="d-flex align-items-center justify-content-center mt-2">
                   <h5>$123.00</h5>
                   <h6 class="text-muted ml-2">

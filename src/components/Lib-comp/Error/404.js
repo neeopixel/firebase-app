@@ -1,13 +1,20 @@
 import React from "react";
 import "./error.css";
-export default function Error404() {
+
+
+
+const Error = () => {
+
+  
+const BaseURL = "/firebase-app";
+
   // Firebase Custom Title
-  // document.title = "ERROR - 404";
+  document.title = "ERROR - 404";
 
   return (
     <>
       <div className="Errorbody">
-      <a href="https://codepen.io/uiswarup/full/yLzypyY" target="/">
+      <a href="/firebase-app" target="/">
   <header class="top-header">
 </header>
 
@@ -19,7 +26,7 @@ export default function Error404() {
 </div>
 
 
-<div class="lamp__wrap">
+<div class="lamp__wrap" style={{overflow:"clip", height:"100vh"}}>
   <div class="lamp">
     <div class="cable"></div>
     <div class="cover"></div>
@@ -28,24 +35,28 @@ export default function Error404() {
     </div>
     <div class="light"></div>
   </div>
-</div>
 
 
-<section class="error">
+  <section class="error">
   <div class="error__content">
     <div class="error__message message">
       <h1 class="message__title">Page Not Found</h1>
       <p class="message__text">We're sorry, the page you were looking for isn't found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.</p>
     </div>
     <div class="error__nav e-nav">
-      <a href="/" target="/" class="e-nav__link">Error</a>
+      <a href={BaseURL} class="e-nav__link"> </a>
     </div>
   </div>
 
 </section>
+</div>
+
+
+
 
   </a>
       </div>
     </>
   );
 }
+export default Error
