@@ -6,9 +6,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0px;
   padding: 0px;
+  width: 100vw;
 }
 
 .App-Landing {
-  width: 100%;
+  
   overflow-x: hidden;
 }

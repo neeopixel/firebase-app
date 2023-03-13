@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Lib-comp/NavBar/Header';
-import "./signin-signup.module.css";
+import "./signin-signup.css";
 
 
 

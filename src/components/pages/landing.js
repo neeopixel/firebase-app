@@ -1,5 +1,5 @@
 import React from "react";
-import "./landing.module.css";
+import "./landing.css";
 import Header from '../Lib-comp/NavBar/Header';
 import Offer from "../../components/Lib-comp/Offer";
 import Products from "../Lib-comp/Products";

@@ -14,7 +14,7 @@ const BaseURL = "/firebase-app";
   return (
     <>
       <div className="Errorbody">
-      <a href="/firebase-app" target="/">
+      <a href="/firebase-app" target="">
   <header class="top-header">
 </header>
 

@@ -8,11 +8,7 @@ import { Button } from "react-bootstrap";
 export default function Offer() {
 
 const SigninURL = "/firebase-app/Signin";
-const SignupURL = "/firebase-app/Signup";
-
-  // Firebase Custom Title
-  // document.title = "HomePage";
-
+const SignupURL = "/firebase-app/Flex";
 
   return (
 
@@ -25,7 +21,7 @@ const SignupURL = "/firebase-app/Signup";
             <div className="offer-text">
               <h6 className="text-white text-uppercase">Save 20%</h6>
               <h3 className="text-white mb-3">Special Offer</h3>
-              <a href={SigninURL} target="/" className="btn btn-primary">Sign In Now</a>
+              <a href={SigninURL} target="" className="btn btn-primary">Sign In Now</a>
               {/* <Link to="/Signup"><Button>Sign-In Now</Button></Link> */}
             </div>
           </div>
