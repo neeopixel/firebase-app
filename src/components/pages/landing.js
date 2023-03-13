@@ -1,5 +1,5 @@
 import React from "react";
-import "./landing.module.css";
+import styles from "./landing.module.css";
 import Header from '../Lib-comp/NavBar/Header';
 import Offer from "../../components/Lib-comp/Offer";
 import Products from "../Lib-comp/Products";
@@ -9,7 +9,7 @@ function Landing() {
   document.title = "HomePage";
 
   return (
-    <div className="App-Landing">
+    <div className="styles.App-Landing">
       <Header />
       <Offer />
       <Products/>
