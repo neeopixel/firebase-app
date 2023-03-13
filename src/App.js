@@ -1,5 +1,5 @@
 import React from 'react';
-import "./App.module.css";
+import styles from "./App.module.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from './components/pages/landing';
 import Dashboard from './components/pages/Dashboard';
@@ -10,7 +10,7 @@ import Error from './components/Lib-comp/Error/404';
 
 function App() {
   return (
-    <div className="container">
+    <div className="styles.app">
       <BrowserRouter basename="/firebase-app">
         <Routes>
           <Route exact path="/" element={<Landing />}/>
