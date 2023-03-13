@@ -1,10 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-<<<<<<< HEAD
 import "./Header.css";
-=======
-import styles from"./Header.module.css";
->>>>>>> b06ffe04f74c3e4d86b4a9e9eeffdce8d25043f5
 import Container from "react-bootstrap/Container";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -36,13 +32,13 @@ export default function Header() {
               src={Logo}
               width="30"
               height="30"
-              className="styles.d-inline-block styles.align-top"
+              className="d-inline-block align-top"
             />{" "}
             React Bootstrap
           </Link>
           </Navbar.Brand>
         </Container>
-        <Container className="styles.justify-content-end">
+        <Container className="justify-content-end">
           <Nav className="me-auto">
             <Nav.Link ><Link to="/Dashboard">Dashboard</Link></Nav.Link>
             <Nav.Link ><Link to="/Signin">Sign In</Link></Nav.Link>

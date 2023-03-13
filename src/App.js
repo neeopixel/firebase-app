@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import "./App.css";
-=======
-import styles from "./App.module.css";
->>>>>>> b06ffe04f74c3e4d86b4a9e9eeffdce8d25043f5
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from './components/pages/landing';
 import Dashboard from './components/pages/Dashboard';
@@ -15,11 +11,7 @@ import Flex from './components/Lib-comp/FlexCard/Flex';
 
 function App() {
   return (
-<<<<<<< HEAD
     <div className="App">
-=======
-    <div className="styles.app">
->>>>>>> b06ffe04f74c3e4d86b4a9e9eeffdce8d25043f5
       <BrowserRouter basename="/firebase-app">
         <Routes>
           <Route exact path="/" element={<Landing />}/>
