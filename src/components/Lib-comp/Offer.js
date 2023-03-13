@@ -8,7 +8,11 @@ import { Button } from "react-bootstrap";
 export default function Offer() {
 
 const SigninURL = "/firebase-app/Signin";
-const SignupURL = "/firebase-app/Flex";
+const SignupURL = "/firebase-app/Signup";
+
+  // Firebase Custom Title
+  // document.title = "HomePage";
+
 
   return (
 
