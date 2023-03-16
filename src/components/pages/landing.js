@@ -9,7 +9,7 @@ function Landing() {
   document.title = "HomePage";
 
   return (
-    <div className="styles.App-Landing">
+    <div className="App-Landing">
       <Header />
       <Offer />
       <Products/>
